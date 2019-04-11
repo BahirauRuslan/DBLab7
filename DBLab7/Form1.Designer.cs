@@ -66,6 +66,7 @@
             this.subjectButton.TabIndex = 1;
             this.subjectButton.Text = "Дисциплины";
             this.subjectButton.UseVisualStyleBackColor = true;
+            this.subjectButton.Click += new System.EventHandler(this.SubjectButton_Click);
             // 
             // planButton
             // 
@@ -76,6 +77,7 @@
             this.planButton.TabIndex = 2;
             this.planButton.Text = "Планы";
             this.planButton.UseVisualStyleBackColor = true;
+            this.planButton.Click += new System.EventHandler(this.PlanButton_Click);
             // 
             // planContentButton
             // 
@@ -86,6 +88,7 @@
             this.planContentButton.TabIndex = 3;
             this.planContentButton.Text = "Содержимое планов";
             this.planContentButton.UseVisualStyleBackColor = true;
+            this.planContentButton.Click += new System.EventHandler(this.PlanContentButton_Click);
             // 
             // groupButton
             // 
@@ -96,6 +99,7 @@
             this.groupButton.TabIndex = 4;
             this.groupButton.Text = "Группы";
             this.groupButton.UseVisualStyleBackColor = true;
+            this.groupButton.Click += new System.EventHandler(this.GroupButton_Click);
             // 
             // studentButton
             // 
@@ -106,6 +110,7 @@
             this.studentButton.TabIndex = 5;
             this.studentButton.Text = "Студенты";
             this.studentButton.UseVisualStyleBackColor = true;
+            this.studentButton.Click += new System.EventHandler(this.StudentButton_Click);
             // 
             // markButton
             // 
@@ -116,6 +121,7 @@
             this.markButton.TabIndex = 6;
             this.markButton.Text = "Оценки";
             this.markButton.UseVisualStyleBackColor = true;
+            this.markButton.Click += new System.EventHandler(this.MarkButton_Click);
             // 
             // MainForm
             // 
